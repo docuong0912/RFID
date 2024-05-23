@@ -1,0 +1,34 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+<div>
+    <GridRow>
+        <GridCol Span="24">
+            <h1 class="mx-auto">Chuong trinh doc the rfid</h1>
+        </GridCol>
+    </GridRow>
+    
+    <GridRow Gutter=(24,16) >
+        
+        <GridCol Span="12" Class="tag-result border-bottom border-end border-start">
+            <TagResult status="@status"/>
+        </GridCol>
+        <GridCol Span="12" Class="border-bottom border-end border-start">
+           <Settings onConnect="@onConnect"/>
+        </GridCol>
+    </GridRow>
+    <GridRow Justify="space-around" Class="mt-5">
+        <Button>Start</Button>
+        <Button>Stop</Button>
+    </GridRow>
+</div>
+@code{
+    public string status { get; set; } = "";
+    private void onConnect(){
+        status = "wekcome";
+    }
+    private void onDisconnect(){
+
+    }
+}
+

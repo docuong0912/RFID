@@ -1,0 +1,27 @@
+﻿
+<Divider Orientation="left">Settings</Divider>
+<GridRow>
+    <GridCol Span="12">
+        <Slider TValue="double" Min="-15" Max="0" />
+        <Slider TValue="double" Min="-9" Max="19" />
+    </GridCol>
+    <GridCol Span="12">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <Checkbox Class="ml-2">Adaptive RX Gain</Checkbox>
+            <Checkbox>Adaptive RX Q</Checkbox>
+        </div>
+
+    </GridCol>
+</GridRow>
+<GridRow Justify="space-around" Class="mt-5">
+    <Button OnClick="onConnect">
+        RFID Connect
+    </Button>
+    <Button>
+        RFID Disconnect
+    </Button>
+</GridRow>
+@code {
+    [Parameter]
+    public EventCallback onConnect { get; set; }
+}

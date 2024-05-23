@@ -1,0 +1,36 @@
+﻿<Divider Orientation="left">Du lieu doc the</Divider>
+<GridRow Justify="space-around">
+    <GridCol Span="6">
+        <p>Fequency</p>
+        <p>Round count</p>
+        <p>Tag count</p>
+    </GridCol>
+    <GridCol Span="6">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+    </GridCol>
+    <GridCol Span="6">
+        <p>Fequency</p>
+        <p>Round count</p>
+        <p>Tag count</p>
+    </GridCol>
+    <GridCol Span="6">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+    </GridCol>
+</GridRow>
+<GridRow Justify="space-between" Align="middle">
+    <TextArea Rows="3" MaxRows="6" ReadOnly @bind-Value="@status" />
+    <Button OnClick="onClearScreen">Clear</Button>
+</GridRow>
+
+@code {
+    [Parameter]
+    public string status { get; set; }
+    private void onClearScreen()
+    {
+        status = "";
+    }
+}

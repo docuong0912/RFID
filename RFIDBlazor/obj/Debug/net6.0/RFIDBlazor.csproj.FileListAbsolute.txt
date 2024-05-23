@@ -1,0 +1,6 @@
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.AssemblyInfo.cs
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\WindowsPowerShell\RFIDBlazor\RFIDBlazor\obj\Debug\net6.0\RFIDBlazor.MvcApplicationPartsAssemblyInfo.cache

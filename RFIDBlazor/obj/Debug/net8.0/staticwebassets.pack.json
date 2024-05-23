@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RFIDBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RFIDBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\wwwroot\\components\\tag-result.css",
+      "PackagePath": "staticwebassets\\components\\tag-result.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\WindowsPowerShell\\RFIDBlazor\\RFIDBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RFIDBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RFIDBlazor.props",
+      "PackagePath": "build\\RFIDBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RFIDBlazor.props",
+      "PackagePath": "buildMultiTargeting\\RFIDBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RFIDBlazor.props",
+      "PackagePath": "buildTransitive\\RFIDBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
